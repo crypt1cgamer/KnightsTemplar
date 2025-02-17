@@ -1,0 +1,19 @@
+﻿{
+  "NPCBlueprint": "npc_blueprint_name",
+  "NPCArmor": "npc_armor_name",
+  "LootTable": {
+    "Items": [
+      {
+        "ItemName": "item_name_1",
+        "MinAmount": 1,
+        "MaxAmount": 5
+      },
+      {
+        "ItemName": "item_name_2",
+        "MinAmount": 1,
+        "MaxAmount": 3
+      }
+    ]
+  }
+}
+
