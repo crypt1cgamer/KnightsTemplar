@@ -8,7 +8,7 @@ using System.IO;
 
 namespace Carbon.Plugins 
 {
-    public class KnightsTemplar : CarbonPlugin // ✅ Correct class inheritance
+    public class KnightsTemplar : CarbonPlugin
     {
         private string configPath = Path.Combine(ConVar.Server.rootFolder, "config", "KnightsTemplar.json");
         private static readonly System.Random rng = new System.Random();
@@ -41,7 +41,7 @@ namespace Carbon.Plugins
             };
         }
 
-        public void Init() // ✅ Carbon does NOT require `override`
+        public void Init()
         {
             Puts("Knights Templar plugin loaded!");
             LoadConfig();
